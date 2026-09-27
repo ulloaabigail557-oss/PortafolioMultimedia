@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SmartLocker</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <header>
+        <section class="identidad" aria-label="SmartLocker">
+            <button id="candado" type="button" aria-label="Animar candado">
+                <svg viewBox="0 0 48 56" aria-hidden="true">
+                    <path class="arco" d="M12 24V15a12 12 0 0 1 24 0v9"/>
+                    <rect x="5" y="24" width="38" height="28" rx="6"/>
+                    <circle cx="24" cy="36" r="2"/>
+                    <path d="M24 38v6"/>
+                </svg>
+            </button>
+            <p>
+                <strong>Smart<span>Locker</span></strong>
+                <small>ACCESO QUE TÚ DECIDES</small>
+            </p>
+        </section>
+
+        <nav aria-label="Navegación principal">
+            <a href="index.html" aria-current="page">Inicio</a>
+            <a href="como-funciona.html">Cómo funciona</a>
+            <a href="modelos.html">Modelos</a>
+            <a href="nosotros.html">Nosotros</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+    </header>
+
+    <main>
+        <section aria-labelledby="titulo">
+            <p class="antetitulo">BUZÓN INTELIGENTE PARA TU HOGAR</p>
+            <h1 id="titulo">
+                Recibe tus pedidos,
+                <em>incluso cuando<br>no estás.</em>
+            </h1>
+            <p class="descripcion">
+                Autoriza la entrega con un código temporal de un solo uso.
+                Tus pedidos quedan en tu buzón y puedes recogerlos
+                desde el interior de casa.
+            </p>
+            <a class="boton" href="como-funciona.html">
+                Conoce cómo funciona <span aria-hidden="true">→</span>
+            </a>
+            <p class="nota">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="m12 3 8 3v6c0 5-8 9-8 9S4 17 4 12V6Z"/>
+                    <path d="m8 12 3 3 5-6"/>
+                </svg>
+                Tú autorizas. Tu buzón recibe.
+            </p>
+        </section>
+    </main>
+
+    <footer aria-label="Beneficios">
+        <article>
+            <svg viewBox="0 0 32 32" aria-hidden="true">
+                <path d="m16 3 11 4v9c0 7-11 13-11 13S5 23 5 16V7Z"/>
+                <path d="m10 16 4 4 8-9"/>
+            </svg>
+            <h2>Tú autorizas el acceso</h2>
+            <p>Comparte un código para que alguien deje o recoja algo.</p>
+        </article>
+
+        <article>
+            <svg viewBox="0 0 32 32" aria-hidden="true">
+                <circle cx="16" cy="18" r="11"/>
+                <path d="M16 11v7l5 3M12 3h8"/>
+            </svg>
+            <h2>Un código, una apertura</h2>
+            <p>Caduca en 3 minutos, al usarlo o tras 3 intentos incorrectos.</p>
+        </article>
+
+        <article>
+            <svg viewBox="0 0 32 32" aria-hidden="true">
+                <path d="m16 2 12 7v14l-12 7L4 23V9Z"/>
+                <path d="M16 16v14M4 9l12 7 12-7M10 5l12 7"/>
+            </svg>
+            <h2>Conoce el estado</h2>
+            <p>Recibe avisos de apertura, cierre y detección de contenido.</p>
+        </article>
+
+        <article>
+            <svg viewBox="0 0 32 32" aria-hidden="true">
+                <path d="M3 15 16 4l13 11"/>
+                <path d="M7 12v16h18V12M13 28V17h7v11"/>
+            </svg>
+            <h2>Recoge desde casa</h2>
+            <p>Retira tus pedidos por la puerta interior con tu candado.</p>
+        </article>
+    </footer>
+</body>
+</html>
